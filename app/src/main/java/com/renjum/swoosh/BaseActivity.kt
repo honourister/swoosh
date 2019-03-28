@@ -3,6 +3,7 @@ package com.renjum.swoosh
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 
 open class BaseActivity : AppCompatActivity() {
 
@@ -35,6 +36,7 @@ open class BaseActivity : AppCompatActivity() {
 
     override fun onStop() {
         Log.d(TAG, "${javaClass.simpleName} OnStop")
+
         super.onStop()
     }
 
