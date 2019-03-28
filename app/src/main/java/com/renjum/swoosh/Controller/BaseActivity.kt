@@ -1,9 +1,8 @@
-package com.renjum.swoosh
+package com.renjum.swoosh.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 
 open class BaseActivity : AppCompatActivity() {
 
